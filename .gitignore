@@ -1,0 +1,17 @@
+notebooks/.ipynb_checkpoints/
+.venv/
+#todos los ficheros que empiecen y terminen asi
+data/raw/data_big*.csv 
+data/raw_big/F4_2_WasteTransfers_Facilities.csv
+data/raw_big/F6_1_IED_Installations.csv
+data/raw/ied_SiteMap.gpkg
+data/cleam/air_nuts_clean.csv 
+data/raw/To_use/F1_4_Air_Releases_Facilities.csv 
+data/raw/df_F4_2_WasteTransfers_Facilities_cut.csv 
+data/raw_big/F5_2_LCP_Energy_Emissions.csv 
+data/raw/F4_2_WasteTransfers_Facilities.csv 
+data/raw/F6_1_IED_Installations.csv
+# Fichero grande en notebooks
+notebooks/geo_df.csv
+# Miscelanea
+inicio/
