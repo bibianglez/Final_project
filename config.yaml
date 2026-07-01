@@ -1,0 +1,10 @@
+data:
+  raw:
+    file1: "../data/raw/to_use/F1_4_Air_Releases_Facilities.csv"
+    file2: "../data/raw/to_use/F2_4_Water_Releases_Facilities.csv"
+    file3: "../data/raw/to_use/air_releases_national.csv"
+    file4: "../data/raw/to_use/air_releases_sector.csv"
+    file5: "../data/raw/to_use/water_releases_national.csv"
+    file6: "../data/raw/to_use/water_releases_sector.csv"
+    file7: "../data/raw/ied_SiteMap.gpkg"
+    file: "../data/raw/raw_big/F6_1_IED_Installations.csv"
