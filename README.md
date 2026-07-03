@@ -43,7 +43,7 @@ A more careful rebuild of the cleaning above (see *Key insights* for what change
 **4. `Life_expectancy.ipynb` and `sickness_notebook.ipynb` — Eurostat health data**
 Rather than being derived from the EEA files, these two are pulled straight from Eurostat: life expectancy by age, sex and region, and standardised mortality by cause of death (ICD-10), sex and region. Both are filtered down to NUTS 2-level rows only and cleaned so they line up with the pollution tables above.
 
-**5. Final notebook — bringing it all together** 
+**5. `Final_project_final_version` — bringing it all together** 
 The final stage combines the cleaned, NUTS 2-tagged pollution tables with the life expectancy and mortality tables and sets out the project's conclusions. As this notebook wasn't among the files shared, the description here is based on your summary rather than a review of the code — happy to flesh this section out once it's available.
 
 ## Key insights
