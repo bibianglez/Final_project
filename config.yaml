@@ -1,4 +1,10 @@
 data:
+  cleam: 
+    file10: "../data/cleam/air_nuts_clean.csv"
+    file11: "../data/cleam/df_life_exp_nuts2_long_clean.csv"
+    file12: "../data/cleam/df_mortality_nuts2_long.csv"
+    file13: "../data/cleam/water_nuts_clean.csv"
+
   raw:
     file1: "../data/raw/to_use/F1_4_Air_Releases_Facilities.csv"
     file2: "../data/raw/to_use/F2_4_Water_Releases_Facilities.csv"
@@ -7,4 +13,5 @@ data:
     file5: "../data/raw/to_use/water_releases_national.csv"
     file6: "../data/raw/to_use/water_releases_sector.csv"
     file7: "../data/raw/ied_SiteMap.gpkg"
-    file: "../data/raw/raw_big/F6_1_IED_Installations.csv"
+    file8: "../data/raw/raw_big/F6_1_IED_Installations.csv"
+
