@@ -44,7 +44,7 @@ A more careful rebuild of the cleaning above (see *Key insights* for what change
 Rather than being derived from the EEA files, these two are pulled straight from Eurostat: life expectancy by age, sex and region, and standardised mortality by cause of death (ICD-10), sex and region. Both are filtered down to NUTS 2-level rows only and cleaned so they line up with the pollution tables above.
 
 **5. `Final_project_final_version` — bringing it all together** 
-The final stage combines the cleaned, NUTS 2-tagged pollution tables with the life expectancy and mortality tables and sets out the project's conclusions. As this notebook wasn't among the files shared, the description here is based on your summary rather than a review of the code — happy to flesh this section out once it's available.
+The final stage combines the cleaned, NUTS 2-tagged pollution tables with the life expectancy and mortality tables and sets out the project's conclusions. As this notebook wasn't among the files shared, the description here is based on your summary rather than a review of the code — Graphical analysis included.
 
 ## Key insights
 
@@ -152,8 +152,3 @@ These codes relate to waterborne pathogens, heavy metals (lead, arsenic, cadmium
 - `eurostat` — pulling Eurostat tables directly via their API
 - `PyYAML` — reading local file paths from `config.yaml`
 
-## A few things worth tidying up
-
-- `Final_project_work.ipynb` still reads several files from a local Windows path (`C:\Users\...`), unlike the rest of the project, which uses `config.yaml`. Worth moving these over for reproducibility.
-- `cleaning_and_combining_testing.ipynb` can effectively be treated as superseded by `cleaning_combining_NUTS.ipynb` — the facility-level dropna issue described above means its output tables aren't usable as they stand.
-- In `sickness_notebook.ipynb`, `df_mortality_nuts2.head()` is called a couple of cells before `df_mortality_nuts2` is actually defined, and the final `dropna()` step is currently commented out — likely just leftovers from interactive exploration, but worth a quick pass before treating the notebook as reproducible top-to-bottom.
